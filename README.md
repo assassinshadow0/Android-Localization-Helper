@@ -10,7 +10,7 @@ This library/executable would help you fix that issue by picking the source stri
 ## Note: it is a good idea to create a backup before you start.
 
 ## Output
-<img src="https://raw.githubusercontent.com/assassinshadow0/Android-Localization-Helper/main/localizationOutput.jpg">
+<img caption="Index names got changed after translation" src="https://raw.githubusercontent.com/assassinshadow0/Android-Localization-Helper/main/localizationOutput.jpg">
 Also check out outputExample.xml
 
 ## Contributing
