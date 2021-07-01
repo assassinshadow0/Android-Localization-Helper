@@ -1,0 +1,335 @@
+<resources>
+<string name = "activity_sample_code">एपीआई डेमो</string>
+
+    <string name="tabs_1_tab_1">tab1</string>
+    <string name="tabs_1_tab_2">tab2</string>
+    <string name="tabs_1_tab_3">tab3</string>
+    <string name="activity_hello_world">ऐप्लिकेशन/गतिविधि/<b>नमस्कार <i>दुनिया</i></b></string>
+    <string name="hello_world"><b>नमस्कार, <i>दुनिया!</i></b></string>
+    <string name = "activity_dialog">ऐप्लिकेशन/गतिविधि/संवाद</string>
+    <string name = "dialog_activity_text">इसका उदाहरण कि आप इसका उपयोग कैसे कर सकते हैं
+            Theme.Dialog विषय एक गतिविधि बनाने के लिए जो a . जैसा दिखता है
+            संवाद। इसमें यह दिखाने के लिए बहुत सारे टेक्स्ट भी हैं कि कैसे टेक्स्ट रैपिंग (और ()
+            संगत विंडो आकार समायोजन) एक संवाद में हो सकता है।</string>
+    <string name = "dialog_activity_add">सामग्री जोड़ें</string>
+    <string name = "dialog_activity_remove">सामग्री हटाएं</string>
+    <string name = "activity_custom_dialog">ऐप्लिकेशन/गतिविधि/कस्टम डायलॉग</string>
+    <string name = "custom_dialog_activity_text">आप इसका उपयोग कैसे कर सकते हैं इसका उदाहरण
+            कस्टम थीम। एक गतिविधि बनाने के लिए संवाद विषय जो एक जैसा दिखता है
+            अनुकूलित संवाद, यहाँ एक बदसूरत फ्रेम के साथ।</string>
+    <string name = "activity_overscan">ऐप्लिकेशन/गतिविधि/ओवरस्कैन</string>
+    <string name = "quick_contacts_demo">ऐप्लिकेशन/गतिविधि/QuickContactsDemo</string>
+    <string name = "activity_wallpaper">ऐप्लिकेशन/गतिविधि/वॉलपेपर</string>
+    <string name = "activity_setwallpaper">ऐप्लिकेशन/गतिविधि/सेटवॉलपेपर</string>
+    <string name = "set_wallpaper">वॉलपेपर सेट करें</string>
+    <string name = "randomize">यादृच्छिक करें</string>
+    <string name = "गतिविधि_स्क्रीन_ओरिएंटेशन">ऐप्लिकेशन/गतिविधि/स्क्रीन अभिविन्यास</string>
+    <string name = "स्क्रीन_ओरिएंटेशन_समरी">उपलब्ध स्क्रीन को प्रदर्शित करता है
+        अभिविन्यास मोड। अक्सर आप अपने मैनिफेस्ट में वांछित मोड सेट करना चाहते हैं
+        प्रोग्राम के बजाय।</string>
+    <string name = "स्क्रीन_ओरिएंटेशन">स्क्रीन ओरिएंटेशन</string>
+    <string name = "activity_Picture_in_Picture">ऐप्लिकेशन/गतिविधि/तस्वीर में चित्र</string>
+    <string name = "activity_max_aspect_ratio_square">ऐप्लिकेशन/गतिविधि/अधिकतम पहलू अनुपात/1:1</string>
+    <string name = "activity_max_aspect_ratio_16to9">ऐप्लिकेशन/गतिविधि/अधिकतम पहलू अनुपात/16:9</string>
+    <string name = "activity_max_aspect_ratio_any">ऐप्लिकेशन/गतिविधि/अधिकतम पहलू अनुपात/कोई भी</string>
+    <string name = "enter_Picture_in_Picture">पिक्चर-इन-पिक्चर मोड दर्ज करें</string>
+    <string name = "activity_translucent">ऐप्लिकेशन/गतिविधि/पारदर्शी</string>
+    <string name="translucent_background">उदाहरण आप कैसे बना सकते हैं
+            गतिविधि में एक पारभासी पृष्ठभूमि होती है, जो अधिक संयोजन करती है
+            इसके पीछे जो कुछ भी है।</string>
+    <string name = "activity_translucent_blur">ऐप्लिकेशन/गतिविधि/पारदर्शी धुंधला</string>
+    <string name = "activity_animation">ऐप्लिकेशन/गतिविधि/एनिमेशन</string>
+    <string name="activity_animation_msg">कस्टम एनिमेशन के साथ गतिविधि शुरू करने के लिए एक बटन दबाएं।</string>
+    <string name = "activity_animation_fade">फ़ेड इन</string>
+    <string name = "activity_animation_zoom">ज़ूम इन करें</string>
+    <string name = "गतिविधि_आधुनिक_एनिमेशन_फ़ेड">आधुनिक फ़ेड इन</string>
+    <string name = "गतिविधि_आधुनिक_एनिमेशन_ज़ूम">आधुनिक ज़ूम इन करें</string>
+    <string name = "activity_scale_up_animation">बड़ा करें</string>
+    <string name = "activity_zoom_thumbnail_animation">थंबनेल ज़ूम</string>
+    <string name = "activity_no_animation">कोई एनिमेशन नहीं</string>
+    <string name = "activity_save_restore">ऐप्लिकेशन/गतिविधि/सहेजें और amp; राज्य को पुनर्स्थापित करें</string>
+    <string name = "save_restore_msg"> onSaveInstanceState () और onCreate () में गतिविधि स्थिति को सहेजने और पुनर्स्थापित करने का प्रदर्शन।</string>
+    <string name="saves_state">यह टेक्स्ट फ़ील्ड अपनी स्थिति को बचाता है:</string>
+    <string name="no_saves_state">यह टेक्स्ट फ़ील्ड अपनी स्थिति नहीं सहेजता:</string>
+    <string name = "initial_text">आरंभिक टेक्स्ट।</string>
+    <string name="soft_input_modes">ऐप्लिकेशन/गतिविधि/सॉफ्ट इनपुट मोड</string>
+    <string name = "soft_input_modes_summary">दिखाता है कि विभिन्न सॉफ्ट इनपुट मोड कैसे प्रभाव डालते हैं
+        इनपुट विधि के कारण एप्लिकेशन का आकार बदलना।</string>
+    <string name = "soft_input_modes_label"> आकार बदलें मोड: </string>
+    <string name = "soft_input_modes_content">यह एप्लिकेशन के UI का एक हिस्सा है जो
+        IME के ​​लिए समायोजित करने के लिए आकार बदल सकता है।</string>
+    <string name="soft_input_modes_initial_text">पाठ संपादक।\n\nIME दिखाने के लिए टैप करें,
+        जो अनुरोध के अनुसार इस विंडो का आकार बदल देगा।</string>
+    <string name = "activity_persistent">ऐप्लिकेशन/गतिविधि/निरंतर स्थिति</string>
+    <string name = "persistent_msg"> getPreferences(0).edit() और getPreferences(0) के साथ लगातार गतिविधि स्थिति का प्रदर्शन।</string>
+    <string name = "activity_recreate">ऐप्लिकेशन/गतिविधि/फिर से बनाएं</string>
+    <string name = "activity_recreate_msg">एक गतिविधि को फिर से बनाने के लिए प्रदर्शन
+        यह महत्वपूर्ण नए परिवर्तनों के साथ पुनर्निर्माण किया। इस मामले में विषय बदल जाता है।</string>
+    <string name="recreate">रीक्रिएट करें</string>
+    <string name = "activity_finish_affinity">ऐप्लिकेशन/गतिविधि/फिनिश एफ़िनिटी</string>
+    <string name = "activity_receive_result">ऐप्लिकेशन/गतिविधि/परिणाम प्राप्त करें</string>
+    <string name="pick_result">भेजने के लिए कोई परिणाम चुनें, या रद्द करने के लिए वापस जाएं।</string>
+    <string name = "corky">कॉर्की</string>
+    <string name = "वायलेट">बैंगनी</string>
+    <string name = "activity_forwarding">ऐप्लिकेशन/गतिविधि/अग्रेषण</string>
+    <string name="forwarding">अगली गतिविधि पर जाने के लिए बटन दबाएं। यह गतिविधि रुक ​​जाएगी, इसलिए वापस जाने पर आपको यह दिखाई नहीं देगी.</string>
+    <string name="go">जाओ</string>
+    <string name="forward_target">वापस बटन दबाएं और ध्यान दें कि हमें पिछली गतिविधि दिखाई नहीं दे रही है।</string>
+    <string name = "activity_redirect">ऐप्लिकेशन/गतिविधि/पुनर्निर्देशन</string>
+    <string name="redirect_enter">उदाहरण शुरू करने के लिए बटन दबाएं। उपयोगकर्ता से डेटा एकत्र करने के लिए अगली गतिविधि सशर्त रूप से किसी अन्य गतिविधि पर रीडायरेक्ट करेगी।</string>
+    <string name="redirect_main">अब आप मुख्य गतिविधि को सामान्य रूप से चलते हुए देखते हैं क्योंकि उपयोगकर्ता टेक्स्ट को इस पर सेट किया गया है:</string>
+    <string name = "clear_text">साफ़ करें और बाहर निकलें</string>
+    <string name = "new_text">नया टेक्स्ट</string>
+    <string name="redirect_getter">वह टेक्स्ट दर्ज करें जिसका उपयोग मुख्य गतिविधि द्वारा किया जाएगा। रद्द करने के लिए वापस दबाएं।</string>
+    <string name = "लागू करें">लागू करें</string>
+    <string name = "गतिविधि_प्रस्तुति">ऐप्लिकेशन/गतिविधि/प्रस्तुति</string>
+    <string name = "presentation_activity_text">यह गतिविधि दर्शाती है कि a का उपयोग कैसे किया जाता है
+                  अन्य प्रदर्शनों पर सामग्री दिखाने के लिए प्रस्तुतिकरण और प्रदर्शन प्रबंधक।\n
+                  सेकेंडरी डिस्प्ले कनेक्ट करके देखें और देखें कि क्या होता है।\n
+                  किसी प्रदर्शन का चयन करने से उस पर एक प्रस्तुति खुल जाएगी।</string>
+    <string name = "presentation_show_all_displays">सभी डिस्प्ले दिखाएं</string>
+    <string name="presentation_photo_text">डिस्प्ले पर #%1$d फ़ोटो दिखाया जा रहा है #%2$d: %3$s.</string>
+    <string name = "presentation_info_text">जानकारी</string>
+    <string name = "presentation_display_id_text">डिस्प्ले #%1$d: %2$s</string>
+    <string name = "presentation_alert_info_text">#%1$d जानकारी प्रदर्शित करें</string>
+    <string name = "presentation_alert_dismiss_text">ठीक है</string>
+	
+	<string name = "activity_presentation_with_media_router">एप्लिकेशन/गतिविधि/मीडिया राउटर के साथ प्रस्तुतीकरण</string>
+    <string name = "presentation_with_media_router_activity_text">यह गतिविधि दर्शाती है कि कैसे करें
+                  स्वचालित रूप से एक प्रस्तुति और मीडिया राउटर का उपयोग करें
+                  वर्तमान के आधार पर उपलब्ध होने पर द्वितीयक प्रदर्शन पर सामग्री दिखाएं
+                  चयनित मीडिया मार्ग.\n
+                  द्वितीयक प्रदर्शन को जोड़ने का प्रयास करें और देखें कि क्या होता है।</string>
+    <string name = "presentation_with_media_router_play_on">चलाएं...</string>
+    <string name = "presentation_with_media_router_now_playing_locally">अब मुख्य प्रदर्शन \'%s\' पर चल रहा है।</string>
+    <string name = "presentation_with_media_router_now_playing_remotely">अब सेकेंडरी डिस्प्ले \'%s\' पर चल रहा है।</string>
+    <string name = "activity_secure_window">ऐप्लिकेशन/गतिविधि/सुरक्षित सतह/सुरक्षित विंडो</string>
+    <string name = "secure_window_activity_text">यह गतिविधि दर्शाती है कि गतिविधि कैसे करें
+            एक सुरक्षित सतह का उपयोग करें ताकि इसकी सामग्री केवल सुरक्षित डिस्प्ले पर ही दिखाई दे।
+            गतिविधि की विंडो को सुरक्षित सतह का उपयोग करने के लिए FLAG_SECURE के साथ चिह्नित किया गया है।
+            नतीजतन, गतिविधि की सामग्री स्क्रीनशॉट में दिखाई नहीं देगी और नहीं होगी
+            गैर-सुरक्षित डिस्प्ले के साथ मिरर किया जा सकता है।\n
+            \n
+            मैं एक सुरक्षित गतिविधि हूं!</string>
+    <string name = "activity_secure_dialog">ऐप्लिकेशन/गतिविधि/सुरक्षित सतह/सुरक्षित संवाद</string>
+    <string name = "secure_dialog_activity_text">यह गतिविधि दर्शाती है कि संवाद का उपयोग कैसे किया जाता है
+            एक सुरक्षित सतह ताकि इसकी सामग्री केवल सुरक्षित डिस्प्ले पर ही दिखाई दे।
+            संवाद विंडो को सुरक्षित सतह का उपयोग करने के लिए FLAG_SECURE के साथ चिह्नित किया गया है।
+            नतीजतन, संवाद की सामग्री स्क्रीनशॉट में दिखाई नहीं देगी और नहीं होगी
+            गैर-सुरक्षित प्रदर्शनों में प्रतिबिंबित होना चाहिए।</string>
+    <string name = "secure_dialog_show_button">सुरक्षित संवाद दिखाएं</string>
+    <string name = "secure_dialog_dialog_text">मैं एक सुरक्षित डायलॉग हूं!</string>
+    <string name = "activity_secure_surface_view">ऐप्लिकेशन/गतिविधि/सुरक्षित सतह/सुरक्षित सतह दृश्य</string>
+    <string name = "secure_surface_view_activity_text">यह गतिविधि दर्शाती है कि कैसे एक
+            भूतल दृश्य एक सुरक्षित सतह का उपयोग करता है ताकि इसकी सामग्री केवल पर दिखाई दे
+            सुरक्षित प्रदर्शित करता है।
+            सतह दृश्य की विंडो को उपयोग करने के लिए setSecure(true) का उपयोग करके सुरक्षित बनाया गया है
+            एक सुरक्षित सतह। नतीजतन, सतह दृश्य की सामग्री में दिखाई नहीं देगा
+            स्क्रीनशॉट और गैर-सुरक्षित डिस्प्ले पर मिरर नहीं किए जाएंगे।</string>
+    <string name = "fragment_alert_dialog">ऐप/फ़्रैगमेंट/अलर्ट डायलॉग</string>
+    <string name = "fragment_arguments">ऐप्लिकेशन/फ़्रैगमेंट/तर्क</string>
+    <string name = "fragment_arguments_msg">एक टुकड़ा प्रदर्शित करता है जो तर्क लेता है
+        रनटाइम पर बंडल के रूप में (दाईं ओर) या लेआउट में विशेषताओं से (बाईं ओर)।</string>
+    <string name = "fragment_arguments_embedded">विशेषताओं से</string>
+    <string name = "fragment_arguments_embedded_land">केवल लैंडस्केप</string>
+    <string name = "fragment_arguments_fragment_msg">दो एम्बेडेड टुकड़े प्रदर्शित करता है
+        जो तर्कों के साथ त्वरित होते हैं।</string>
+    <string name = "fragment_custom_animations">ऐप/फ़्रैगमेंट/कस्टम एनिमेशन</string>
+    <string name = "fragment_hide_show">ऐप्लिकेशन/फ़्रैगमेंट/छिपाएं और दिखाएं</string>
+    <string name = "fragment_context_menu">ऐप/फ़्रैगमेंट/संदर्भ मेनू</string>
+    <string name = "fragment_context_menu_msg">संदर्भ को आबाद करने वाला टुकड़ा
+            मेन्यू; देखने के लिए बटन को देर तक दबाएं।</string>
+    <string name = "long_press">मुझे देर तक दबाएं</string>
+    <string name = "fragment_dialog">एप्लिकेशन/फ़्रैगमेंट/संवाद</string>
+    <string name = "शो">दिखाएं</string>
+    <string name = "fragment_dialog_or_activity">ऐप्लिकेशन/फ़्रैगमेंट/संवाद या गतिविधि</string>
+    <string name = "fragment_dialog_or_activity_msg">एक ही टुकड़ा प्रदर्शित करता है
+            एक संवाद के रूप में दिखाया जा रहा है और एक गतिविधि के अंदर एम्बेड किया जा रहा है।</string>
+    <string name = "fragment_dialog_or_activity_inline">अंदर एम्बेड किया गया टुकड़ा
+            गतिविधि की:</string>
+    <string name = "fragment_layout">एप्लिकेशन/फ़्रैगमेंट/लेआउट</string>
+    <string name = "fragment_list_array">ऐप/फ़्रैगमेंट/सूची सरणी</string>
+    <string name = "fragment_menu">ऐप/फ़्रैगमेंट/मेनू</string>
+    <string name="fragment_menu_msg">दो टुकड़ों से मेनू बनाएं, अनुमति दें
+        आप उन्हें हटाने के लिए उन्हें छिपाने के लिए..</string>
+    <string name="fragment1menu">टुकड़ा 1 मेनू दिखाएं</string>
+    <string name="fragment2menu">टुकड़ा 2 मेनू दिखाएं</string>
+    <string name = "fragment_nesting_tabs">ऐप्लिकेशन/फ़्रैगमेंट/नेस्टिंग टैब</string>
+    <string name = "fragment_retain_instance">ऐप्लिकेशन/फ़्रैगमेंट/रिटेन इंस्टेंस</string>
+    <string name = "fragment_retain_instance_msg">प्रतिधारित टुकड़े की वर्तमान प्रगति;
+    यदि टुकड़ा फिर से बनाया जाता है तो पुनरारंभ होता है।</string>
+    <string name = "पुनरारंभ करें">पुनरारंभ करें</string>
+    <string name = "fragment_receive_result">एप्लिकेशन/फ़्रैगमेंट/परिणाम प्राप्त करें</string>
+	
+	<string name = "fragment_stack">ऐप/फ़्रैगमेंट/स्टैक</string>
+    <string name = "new_fragment">पुश</string>
+    <string name = "delete_fragment">पॉप</string>
+    <string name = "पहला">पहला</string>
+    <string name = "last">अंतिम</string>
+    <string name = "fragment_tabs">ऐप्लिकेशन/फ़्रैगमेंट/टैब</string>
+    <string name = "loader_cursor">ऐप/लोडर/कर्सर</string>
+    <string name = "loader_retained">ऐप्लिकेशन/लोडर/रखरखाव</string>
+    <string name = "loader_custom">ऐप/लोडर/कस्टम</string>
+    <string name = "loader_throttle">ऐप/लोडर/थ्रॉटल</string>
+    <string name = "activity_menu">ऐप्लिकेशन/गतिविधि/मेनू</string>
+    <string name = "open_menu">मेनू खोलें</string>
+    <string name = "close_menu">मेनू बंद करें</string>
+    <string name="toggle_scenery">दृश्यावली टॉगल करें</string>
+    <string name="toggle_dogs">कुत्तों को टॉगल करें</string>
+    <string name = "long_click_for_context_menu">संदर्भ मेनू के लिए लंबा क्लिक करें</string>
+    <string name = "local_service_started">स्थानीय सेवा प्रारंभ हो गई है</string>
+    <string name = "local_service_stopped">स्थानीय सेवा बंद हो गई है</string>
+    <string name = "local_service_label">नमूना स्थानीय सेवा</string>
+    <string name = "activity_local_service_controller">ऐप/सेवा/स्थानीय सेवा नियंत्रक</string>
+    <string name = "local_service_controller">यह दर्शाता है कि आप लगातार सेवाओं को कैसे लागू कर सकते हैं
+        वांछित के रूप में शुरू और बंद किया जा सकता है।</string>
+    <string name="start_service">सेवा प्रारंभ करें</string>
+    <string name = "stop_service">सेवा बंद करें</string>
+    <string name = "activity_local_service_binding">ऐप्लिकेशन/सेवा/स्थानीय सेवा बाइंडिंग</string>
+    <string name = "local_service_binding">यह दर्शाता है कि आप लगातार के साथ कैसे जुड़ सकते हैं
+        सेवा। ध्यान दें कि यह स्वचालित रूप से आपके लिए कैसे शुरू होता है, और इसके साथ खेलें
+        इस और स्थानीय सेवा नियंत्रक के बीच बातचीत।</string>
+    <string name = "bind_service">बाइंड सर्विस</string>
+    <string name = "unbind_service">सेवा अनबाइंड करें</string>
+    <string name = "local_service_connected">स्थानीय सेवा से कनेक्ट किया गया</string>
+    <string name = "local_service_disconnected">स्थानीय सेवा से डिस्कनेक्ट किया गया</string>
+    <string name = "activity_messenger_service_binding">ऐप्लिकेशन/सेवा/मैसेंजर सेवा</string>
+    <string name = "messenger_service_binding">यह दर्शाता है कि आप किस तरह से संवाद कर सकते हैं
+        Messenger का उपयोग करने वाली दूरस्थ सेवा.</string>
+    <string name = "remote_service_started">दूरस्थ सेवा प्रारंभ हो गई है</string>
+    <string name = "remote_service_stopped">दूरस्थ सेवा बंद हो गई है</string>
+    <string name = "remote_service_label">नमूना दूरस्थ सेवा</string>
+    <string name = "activity_remote_service_controller">ऐप/सेवा/रिमोट सर्विस कंट्रोलर</string>
+    <string name = "remote_service_controller">यह दर्शाता है कि आप लगातार सेवाओं को कैसे लागू कर सकते हैं
+        एक अलग प्रक्रिया में चल रहा है जिसे वांछित के रूप में शुरू और रोका जा सकता है।</string>
+    <string name = "activity_remote_service_binding">ऐप/सेवा/रिमोट सर्विस बाइंडिंग</string>
+    <string name = "remote_service_binding">यह दर्शाता है कि आप लगातार के साथ कैसे जुड़ सकते हैं
+        सेवा किसी अन्य प्रक्रिया में चल रही है। किल बटन का उपयोग करके देखें कि क्या होता है जब
+        प्रक्रिया क्रैश हो जाती है।</string>
+    <string name = "kill_process"> प्रक्रिया को समाप्त करें</string>
+    <string name = "remote_service_connected">दूरस्थ सेवा से कनेक्ट किया गया</string>
+    <string name = "remote_service_disconnected">दूरस्थ सेवा से डिस्कनेक्ट किया गया</string>
+    <string name = "remote_service_unbind_disconn">डिस्कनेक्ट के कारण अनबाइंडिंग</string>
+    <string name="remote_call_failed">दूरस्थ सेवा को कॉल करने में विफल</string>
+    <string name = "activity_remote_service_binding_options">ऐप/सेवा/रिमोट सर्विस बाइंडिंग विकल्प</string>
+    <string name = "service_start_arguments_label">नमूना सेवा प्रारंभ तर्क
+    </string>
+    <string name = "activity_service_start_arguments_controller">ऐप/सेवा/सेवा
+        तर्क नियंत्रक शुरू करें
+    </string>
+    <string name = "service_start_arguments_controller">यह दर्शाता है कि कैसे
+        सेवा को तर्कों के साथ शुरू किया जा सकता है, और तब तक चलाया जा सकता है जब तक कि सभी तर्क न हों
+        संसाधित।
+    </string>
+    <string name = "start1_service"> \"एक\" कोई पुनर्वितरण नहीं प्रारंभ करें</string>
+    <string name = "start2_service"> \"दो\" प्रारंभ करें कोई पुनर्वितरण नहीं</string>
+    <string name = "start3_service"> \"तीन\" w/redelive प्रारंभ करें</string>
+    <string name = "startfail_service">विफल वितरण प्रारंभ करें</string>
+    <string name = "service_created"> सेवा बनाई गई।</string>
+    <string name = "service_destroyed">सेवा नष्ट हो गई।</string>
+    <string name = "job_work_service_label">नौकरी कार्य सेवा</string>
+    <string name = "activity_job_work_service">ऐप/जॉब/जॉब वर्क सर्विस कंट्रोलर</string>
+    <string name = "job_work_service_controller">यह दर्शाता है कि कैसे
+        काम को एक नौकरी द्वारा कतारबद्ध और निष्पादित किया जा सकता है, जब तक नौकरी में काम चल रहा है
+        सब कुछ पूर्ण है।
+    </string>
+    <string name = "enqueue1_job">एनक्यू \"एक\"</string>
+    <string name = "enqueue2_job">एनक्यू \"दो\"</string>
+    <string name = "enqueue3_job">एनक्यू \"तीन\"</string>
+    <string name = "job_service_created">JobService बनाया गया।</string>
+    <string name = "job_service_destroyed">JobService नष्ट हो गई।</string>
+    <string name = "foreground_service_started">सेवा अग्रभूमि में है</string>
+    <string name = "foreground_service_label">नमूना अग्रभूमि सेवा</string>
+    <string name = "activity_foreground_service_controller">ऐप/सेवा/अग्रभूमि सेवा नियंत्रक</string>
+    <string name = "foreground_service_controller">यह दर्शाता है कि आप कैसे कर सकते हैं
+            जरूरत पड़ने पर अग्रभूमि में चलने वाली सेवाओं को लागू करें।</string>
+    <string name = "start_service_foreground">सेवा अग्रभूमि प्रारंभ करें</string>
+    <string name="start_service_foreground_wakelock">सेवा अग्रभूमि w/Wakelock प्रारंभ करें</string>
+    <string name = "start_service_background">सेवा पृष्ठभूमि प्रारंभ करें</string>
+    <string name="start_service_background_wakelock">सेवा पृष्ठभूमि w/Wakelock प्रारंभ करें</string>
+    <string name="start_service_foreground_2">सेवा अग्रभूमि 2 प्रारंभ करें</string>
+    <string name="start_service_foreground_2_alarm">सेवा अग्रभूमि 2 अलार्म के माध्यम से प्रारंभ करें</string>
+    <string name = "activity_isolated_service_controller">ऐप/सेवा/पृथक सेवा नियंत्रक</string>
+    <string name = "isolated_service_controller">यह android:solatedProcess के उपयोग को दर्शाता है
+            सेवाओं के साथ। दो सेवाएं हैं, जिन्हें स्वतंत्र रूप से नियंत्रित किया जा सकता है; वे करेंगे
+            प्रत्येक अपनी पृथक प्रक्रिया में चलता है</string>
+    <string name="start_service_1">सेवा 1 प्रारंभ करें</string>
+    <string name = "stop_service_1">सेवा 1 रोकें</string>
+    <string name = "bind_service_1">सेवा 1 बाइंड करें</string>
+    <string name="start_service_2">सेवा 2 प्रारंभ करें</string>
+    <string name = "stop_service_2">सेवा 2 रोकें</string>
+    <string name = "bind_service_2">बाइंड सर्विस 2</string>
+    <string name="isolated_service_1_started">पृथक सेवा 1 प्रारंभ हो गई है</string>
+    <string name="isolated_service_1_stopped">पृथक सेवा 1 बंद हो गई है</string>
+    <string name="isolated_service_1_label">नमूना पृथक सेवा 1</string>
+    <string name="one_shot_received">एक शॉट वाला अलार्म बंद हो गया है</string>
+    <string name="repeating_received">दोहराए जाने वाला अलार्म बंद हो गया है</string>
+    <string name = "activity_alarm_controller">ऐप्लिकेशन/अलार्म/अलार्म नियंत्रक</string>
+    <string name = "alarm_controller">यह दर्शाता है कि शेड्यूल और प्रबंधन कैसे करें
+        एक-शॉट और दोहराए जाने वाले अलार्म।</string>
+    <string name = "one_shot_alarm">एक शॉट अलार्म</string>
+    <string name = "one_shot_ while_idle_alarm">एक शॉट जबकि-निष्क्रिय अलार्म</string>
+    <string name = "start_repeating_alarm">अलार्म दोहराना प्रारंभ करें</string>
+    <string name = "stop_repeating_alarm">अलार्म दोहराना बंद करें</string>
+    <string name="one_shot_scheduled">एक-शॉट अलार्म 30 सेकंड में बंद हो जाएगा
+        वास्तविक समय घड़ी। इससे पहले वर्तमान समय को बदलने का प्रयास करें!</string>
+    <string name = "repeating_scheduled">दोहराए जाने वाला अलार्म 15 सेकंड में बंद हो जाएगा और
+        बीती हुई रीयलटाइम घड़ी के आधार पर हर 15 सेकंड के बाद</string>
+    <string name="repeating_unscheduled">दोहराए जाने वाले अलार्म को शेड्यूल नहीं किया गया है</string>
+    <string name = "alarm_service_started">अलार्म सेवा चलने लगी है</string>
+    <string name = "अलार्म_सर्विस_फिनिश्ड">अलार्म सेवा समाप्त हो गई है</string>
+    <string name = "alarm_service_label">नमूना अलार्म सेवा</string>
+    <string name = "activity_alarm_service">ऐप/अलार्म/अलार्म सेवा</string>
+    <string name = "alarm_service">यह दर्शाता है कि दोहराव को कैसे शेड्यूल किया जाए
+        अलार्म जो एक सेवा के माध्यम से लंबे समय तक चलने वाला संचालन शुरू करेगा।</string>
+    <string name = "start_alarm_service">अलार्म सेवा प्रारंभ करें</string>
+    <string name = "stop_alarm_service">अलार्म सेवा बंद करें</string>
+    <string name = "alarm_service_scheduled">अलार्म सेवा अब चलेगी, और फिर प्रत्येक
+        १५ सेकंड के लिए ३० सेकंड</string>
+    <string name = "alarm_service_unscheduled">अलार्म सेवा शेड्यूल नहीं की गई है</string>
+    <string name = "activity_local_sample">ऐप/इंस्ट्रुमेंटेशन/स्थानीय नमूना</string>
+    <string name="local_sample">यह एक ऐसे इंस्ट्रुमेंटेशन को प्रदर्शित करता है जो इसके विरुद्ध चलता है
+        हमारे अपने वर्गों में से एक। ध्यान दें कि इस गतिविधि को इस प्रकार मार दिया जाएगा
+        अपने स्वयं के अनुप्रयोग पर इंस्ट्रूमेंटेशन शुरू करने का एक साइड-इफेक्ट।</string>
+    <string name = "activity_contacts_filter">ऐप्लिकेशन/इंस्ट्रुमेंटेशन/संपर्क फ़िल्टर</string>
+    <string name = "contacts_filter">यह एक इंस्ट्रुमेंटेशन पैकेज प्रदर्शित करता है जो
+        संपर्क सूची लॉन्च करता है और इसे फ़िल्टर करने के लिए उपयोगकर्ता ईवेंट का अनुकरण करता है।</string>
+    <string name = "pick_image_label">ऐप्लिकेशन/गतिविधि/पिकइमेज</string>
+    <string name = "pick_image">इमेज चुनें</string>
+    <string name = "short_notification_text">संक्षिप्त सूचना</string>
+    <string name = "long_notification_text">यह एक लंबी सूचना है। देखिए, आपको इसे पढ़ने के लिए एक सेकंड और की आवश्यकता हो सकती है।</string>
+    <string name = "status_bar_notification_title">नमूना अधिसूचना</string>
+    <string name = "notifying_service_controller">यह सेवा एक स्टेटस बार नोटिफिकेशन को अपडेट करेगी
+                  हर 5 सेकंड में एक मिनट के लिए</string>
+    <string name = "notification_background_service">यह दिखाता है कि आप अधिसूचना का उपयोग कैसे कर सकते हैं
+        एक प्रसारण भेजें और आपको एक सेवा शुरू करने की अनुमति दें, भले ही आपका ऐप इसमें हो
+        पृष्ठभूमि।</string>
+    <string name = "notify_bg">सूचना पोस्ट करें</string>
+    <string name = "notification_background_label">पृष्ठभूमि के लिए अधिसूचना</string>
+    <string name = "activity_custom_title">ऐप्लिकेशन/गतिविधि/कस्टम शीर्षक</string>
+    <string name = "custom_title_left">बायाँ सबसे अच्छा है</string>
+    <string name = "custom_title_right">राइट हमेशा सही होता है</string>
+    <string name = "custom_title_left_button">बाएं बदलें</string>
+    <string name = "custom_title_right_button">दाएं बदलें</string>
+    <string name = "activity_reorder">ऐप्लिकेशन/गतिविधि/गतिविधि को फिर से व्यवस्थित करें</string>
+    <string name="reorder_on_launch">चार गतिविधियों के अनुक्रम में से यह पहला है। चौथे पर एक बटन दूसरी गतिविधियों को इतिहास स्टैक के सामने लाने के लिए Intent.FLAG_ACTIVITY_REORDER_TO_FRONT ध्वज का उपयोग करेगा। उसके बाद, इतिहास के माध्यम से वापस आगे बढ़ना सबसे नई दूसरी पुन: क्रम गतिविधि के साथ शुरू होना चाहिए, फिर चौथा, तीसरा, और अंत में पहला।</string>
+    <string name="reorder_launch_two">दूसरे पर जाएं</string>
+    <string name="reorder_two_text">चार गतिविधियों के क्रम में यह दूसरा है।</string>
+    <string name="reorder_launch_three">तीसरे पर जाएं</string>
+    <string name="reorder_three_text">यह चार गतिविधियों के अनुक्रम का तीसरा भाग है।</string>
+    <string name="reorder_launch_four">चौथे पर जाएं</string>
+    <string name="reorder_four_text">चार गतिविधियों के क्रम में यह अंतिम है।</string>
+    <string name="reorder_second_to_front">दूसरे को सामने लाएं</string>
+    <string name = "activity_rotation_animation">ऐप्लिकेशन/गतिविधि/रोटेशन एनिमेशन</string>
+    <string name = "menu_from_xml_title">एप्लिकेशन/मेनू/एक्सएमएल से फुलाएं</string>
+    <string name="menu_from_xml_instructions_press_menu">एक मेनू संसाधन चुनें और मेनू कुंजी दबाएं।</string>
+    <string name="menu_from_xml_instructions_go_back">यदि आप कोई अन्य मेनू संसाधन चुनना चाहते हैं, तो वापस जाएं और इस गतिविधि को फिर से चलाएँ।</string>
+    <string name = "वॉयस_रिकग्निशन">ऐप/वॉयस रिकॉग्निशन</string>
+    <string name="supported_languages">समर्थित भाषाएं</string>
+    <string name="language_preference">सेटिंग में बोलकर खोजें</string>
+    <string name = "text_to_speech">ऐप/टेक्स्ट-टू-स्पीच</string>
+    <string name = "फिर से">फिर से</string>
+    <string name="app_update_received">ApiDemos को अपडेट कर दिया गया है!</string>
+	
+	
+	</resources>

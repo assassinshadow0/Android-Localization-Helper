@@ -1,0 +1,335 @@
+<resources>
+    <string name="activity_sample_code">API Demos</string>
+
+
+    <string name="styled_12_hour_clock2">\'Custom font:\' <font color="@android:color/primary_text_holo_dark" face="sans-serif-thin">MM/dd/yy h:mm aa</font></string>
+    <string name="styled_24_hour_clock2">\'Custom font:\' <font color="@android:color/primary_text_holo_dark" face="sans-serif-thin">MM/dd/yy k:mm</font></string>
+    <string name="tabs_1_tab_1">tab1</string>
+    <string name="tabs_1_tab_2">tab2</string>
+    <string name="tabs_1_tab_3">tab3</string>
+    <string name="activity_hello_world">App/Activity/<b>Hello <i>World</i></b></string>
+    <string name="hello_world"><b>Hello, <i>World!</i></b></string>
+    <string name="activity_dialog">App/Activity/Dialog</string>
+    <string name="dialog_activity_text">Example of how you can use the
+            Theme.Dialog theme to make an activity that looks like a
+            dialog.  It also has lots of text to show how text wrapping (and
+            corresponding window size adjustment) can happen in a dialog.</string>
+    <string name="dialog_activity_add">Add content</string>
+    <string name="dialog_activity_remove">Remove content</string>
+    <string name="activity_custom_dialog">App/Activity/Custom Dialog</string>
+    <string name="custom_dialog_activity_text">Example of how you can use a
+            custom Theme.Dialog theme to make an activity that looks like a
+            customized dialog, here with an ugly frame.</string>
+    <string name="activity_overscan">App/Activity/Overscan</string>
+    <string name="quick_contacts_demo">App/Activity/QuickContactsDemo</string>
+    <string name="activity_wallpaper">App/Activity/Wallpaper</string>
+    <string name="activity_setwallpaper">App/Activity/SetWallpaper</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="randomize">Randomize</string>
+    <string name="activity_screen_orientation">App/Activity/Screen Orientation</string>
+    <string name="screen_orientation_summary">Demonstrates the available screen
+        orientation modes.  Often you want to set the desired mode in your manifest
+        instead of programmatically.</string>
+    <string name="screen_orientation">Screen Orientation</string>
+    <string name="activity_picture_in_picture">App/Activity/Picture in Picture</string>
+    <string name="activity_max_aspect_ratio_square">App/Activity/Max Aspect Ratio/1:1</string>
+    <string name="activity_max_aspect_ratio_16to9">App/Activity/Max Aspect Ratio/16:9</string>
+    <string name="activity_max_aspect_ratio_any">App/Activity/Max Aspect Ratio/Any</string>
+    <string name="enter_picture_in_picture">Enter picture-in-picture mode</string>
+    <string name="activity_translucent">App/Activity/Translucent</string>
+    <string name="translucent_background">Example of how you can make an
+            activity have a translucent background, compositing over
+            whatever is behind it.</string>
+    <string name="activity_translucent_blur">App/Activity/Translucent Blur</string>
+    <string name="activity_animation">App/Activity/Animation</string>
+    <string name="activity_animation_msg">Press a button to launch an activity with a custom animation.</string>
+    <string name="activity_animation_fade">Fade in</string>
+    <string name="activity_animation_zoom">Zoom in</string>
+    <string name="activity_modern_animation_fade">Modern fade in</string>
+    <string name="activity_modern_animation_zoom">Modern zoom in</string>
+    <string name="activity_scale_up_animation">Scale up</string>
+    <string name="activity_zoom_thumbnail_animation">Thumbnail zoom</string>
+    <string name="activity_no_animation">No Animation</string>
+    <string name="activity_save_restore">App/Activity/Save &amp; Restore State</string>
+    <string name="save_restore_msg">Demonstration of saving and restoring activity state in onSaveInstanceState() and onCreate().</string>
+    <string name="saves_state">This text field saves its state:</string>
+    <string name="no_saves_state">This text field does not save its state:</string>
+    <string name="initial_text">Initial text.</string>
+    <string name="soft_input_modes">App/Activity/Soft Input Modes</string>
+    <string name="soft_input_modes_summary">Shows how different soft input modes impact
+        application resizing due to an input method.</string>
+    <string name="soft_input_modes_label">Resize mode: </string>
+    <string name="soft_input_modes_content">This is a part of the application\'s UI that
+        can resize to adjust for the IME.</string>
+    <string name="soft_input_modes_initial_text">Text editor.\n\nTap to show the IME,
+        which will cause this window to resize as requested.</string>
+    <string name="activity_persistent">App/Activity/Persistent State</string>
+    <string name="persistent_msg">Demonstration of persistent activity state with getPreferences(0).edit() and getPreferences(0).</string>
+    <string name="activity_recreate">App/Activity/Recreate</string>
+    <string name="activity_recreate_msg">Demonstration recreating an activity, to have
+        it reconstructed with significant new changes.  In this case the theme is changed.</string>
+    <string name="recreate">Recreate</string>
+    <string name="activity_finish_affinity">App/Activity/Finish Affinity</string>
+    <string name="activity_receive_result">App/Activity/Receive Result</string>
+    <string name="pick_result">Pick a result to send, or BACK to cancel.</string>
+    <string name="corky">Corky</string>
+    <string name="violet">Violet</string>
+    <string name="activity_forwarding">App/Activity/Forwarding</string>
+    <string name="forwarding">Press the button to go forward to the next activity.  This activity will stop, so you will no longer see it when going back.</string>
+    <string name="go">Go</string>
+    <string name="forward_target">Press back button and notice we don\'t see the previous activity.</string>
+    <string name="activity_redirect">App/Activity/Redirection</string>
+    <string name="redirect_enter">Press the button to start the example.  The next activity will conditionally redirect to another activity to collect data from the user.</string>
+    <string name="redirect_main">You now see the main activity running normally because the user text has been set to:</string>
+    <string name="clear_text">Clear and Exit</string>
+    <string name="new_text">New Text</string>
+    <string name="redirect_getter">Enter the text that will be used by the main activity.  Press back to cancel.</string>
+    <string name="apply">Apply</string>
+    <string name="activity_presentation">App/Activity/Presentation</string>
+    <string name="presentation_activity_text">This activity demonstrates how to use a
+                  Presentation and the DisplayManager to show content on other Displays.\n
+                  Try connecting a secondary display and watch what happens.\n
+                  Selecting a Display will open a Presentation on it.</string>
+    <string name="presentation_show_all_displays">Show all displays</string>
+    <string name="presentation_photo_text">Showing photo #%1$d on display #%2$d: %3$s.</string>
+    <string name="presentation_info_text">Info</string>
+    <string name="presentation_display_id_text">Display #%1$d: %2$s</string>
+    <string name="presentation_alert_info_text">Display #%1$d Info</string>
+    <string name="presentation_alert_dismiss_text">OK</string>
+    <string name="activity_presentation_with_media_router">App/Activity/Presentation with Media Router</string>
+    <string name="presentation_with_media_router_activity_text">This activity demonstrates how to
+                  use a Presentation and the MediaRouter to automatically
+                  show content on a secondary display when available based on the currently
+                  selected media route.\n
+                  Try connecting a secondary display and watch what happens.</string>
+    <string name="presentation_with_media_router_play_on">Play on...</string>
+    <string name="presentation_with_media_router_now_playing_locally">Now playing on main display \'%s\'.</string>
+    <string name="presentation_with_media_router_now_playing_remotely">Now playing on secondary display \'%s\'.</string>
+    <string name="activity_secure_window">App/Activity/Secure Surfaces/Secure Window</string>
+    <string name="secure_window_activity_text">This activity demonstrates how to make an activity
+            use a secure surface so that its contents will only be visible on secure displays.
+            The activity\'s window has been marked with FLAG_SECURE to make it use a secure surface.
+            Consequently, the contents of the activity will not appear in screenshots and will not
+            be mirrored to non-secure displays.\n
+            \n
+            I am a secure activity!</string>
+    <string name="activity_secure_dialog">App/Activity/Secure Surfaces/Secure Dialog</string>
+    <string name="secure_dialog_activity_text">This activity demonstrates how to make a dialog use
+            a secure surface so that its contents will only be visible on secure displays.
+            The dialog\'s window has been marked with FLAG_SECURE to make it use a secure surface.
+            Consequently, the contents of the dialog will not appear in screenshots and will not
+            be mirrored to non-secure displays.</string>
+    <string name="secure_dialog_show_button">Show secure dialog</string>
+    <string name="secure_dialog_dialog_text">I am a secure dialog!</string>
+    <string name="activity_secure_surface_view">App/Activity/Secure Surfaces/Secure Surface View</string>
+    <string name="secure_surface_view_activity_text">This activity demonstrates how to make a
+            SurfaceView use a secure surface so that its contents will only be visible on
+            secure displays.
+            The surface view\'s window has been made secure using setSecure(true) to make it use
+            a secure surface.  Consequently, the contents of the surface view will not appear in
+            screenshots and will not be mirrored to non-secure displays.</string>
+    <string name="fragment_alert_dialog">App/Fragment/Alert Dialog</string>
+    <string name="fragment_arguments">App/Fragment/Arguments</string>
+    <string name="fragment_arguments_msg">Demonstrates a fragment that takes arguments
+        as a Bundle at runtime (on the right) or from attributes in a layout (on the left).</string>
+    <string name="fragment_arguments_embedded">From Attributes</string>
+    <string name="fragment_arguments_embedded_land">Landscape Only</string>
+    <string name="fragment_arguments_fragment_msg">Demonstrates two embedded fragments
+        that are instantiated with arguments.</string>
+    <string name="fragment_custom_animations">App/Fragment/Custom Animations</string>
+    <string name="fragment_hide_show">App/Fragment/Hide and Show</string>
+    <string name="fragment_context_menu">App/Fragment/Context Menu</string>
+    <string name="fragment_context_menu_msg">Fragment populating a context
+            menu; long press the button to see.</string>
+    <string name="long_press">Long press me</string>
+    <string name="fragment_dialog">App/Fragment/Dialog</string>
+    <string name="show">Show</string>
+    <string name="fragment_dialog_or_activity">App/Fragment/Dialog or Activity</string>
+    <string name="fragment_dialog_or_activity_msg">Demonstrates the same fragment
+            being shown as a dialog and embedded inside of an activity.</string>
+    <string name="fragment_dialog_or_activity_inline">Fragment embedded inside
+            of the activity:</string>
+    <string name="fragment_layout">App/Fragment/Layout</string>
+    <string name="fragment_list_array">App/Fragment/List Array</string>
+    <string name="fragment_menu">App/Fragment/Menu</string>
+    <string name="fragment_menu_msg">Build menus from two fragments, allowing
+        you to hide them to remove them..</string>
+    <string name="fragment1menu">Show fragment 1 menu</string>
+    <string name="fragment2menu">Show fragment 2 menu</string>
+    <string name="fragment_nesting_tabs">App/Fragment/Nesting Tabs</string>
+    <string name="fragment_retain_instance">App/Fragment/Retain Instance</string>
+    <string name="fragment_retain_instance_msg">Current progress of retained fragment;
+    restarts if fragment is re-created.</string>
+    <string name="restart">Restart</string>
+    <string name="fragment_receive_result">App/Fragment/Receive Result</string>
+    <string name="fragment_stack">App/Fragment/Stack</string>
+    <string name="new_fragment">Push</string>
+    <string name="delete_fragment">Pop</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="fragment_tabs">App/Fragment/Tabs</string>
+    <string name="loader_cursor">App/Loader/Cursor</string>
+    <string name="loader_retained">App/Loader/Retained</string>
+    <string name="loader_custom">App/Loader/Custom</string>
+    <string name="loader_throttle">App/Loader/Throttle</string>
+    <string name="activity_menu">App/Activity/Menu</string>
+    <string name="open_menu">Open menu</string>
+    <string name="close_menu">Close menu</string>
+    <string name="toggle_scenery">Toggle scenery</string>
+    <string name="toggle_dogs">Toggle dogs</string>
+    <string name="long_click_for_context_menu">Long click for context menu</string>
+    <string name="local_service_started">Local service has started</string>
+    <string name="local_service_stopped">Local service has stopped</string>
+    <string name="local_service_label">Sample Local Service</string>
+    <string name="activity_local_service_controller">App/Service/Local Service Controller</string>
+    <string name="local_service_controller">This demonstrates how you can implement persistent services that
+        may be started and stopped as desired.</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="activity_local_service_binding">App/Service/Local Service Binding</string>
+    <string name="local_service_binding">This demonstrates how you can connect with a persistent
+        service.  Notice how it automatically starts for you, and play around with the
+        interaction between this and Local Service Controller.</string>
+    <string name="bind_service">Bind Service</string>
+    <string name="unbind_service">Unbind Service</string>
+    <string name="local_service_connected">Connected to local service</string>
+    <string name="local_service_disconnected">Disconnected from local service</string>
+    <string name="activity_messenger_service_binding">App/Service/Messenger Service</string>
+    <string name="messenger_service_binding">This demonstrates how you can communicate with
+        a remote service using Messenger.</string>
+    <string name="remote_service_started">Remote service has started</string>
+    <string name="remote_service_stopped">Remote service has stopped</string>
+    <string name="remote_service_label">Sample Remote Service</string>
+    <string name="activity_remote_service_controller">App/Service/Remote Service Controller</string>
+    <string name="remote_service_controller">This demonstrates how you can implement persistent services
+        running in a separate process that may be started and stopped as desired.</string>
+    <string name="activity_remote_service_binding">App/Service/Remote Service Binding</string>
+    <string name="remote_service_binding">This demonstrates how you can connect with a persistent
+        service running in another process.  Use the kill button to see what happens when
+        the process crashes.</string>
+    <string name="kill_process">Kill Process</string>
+    <string name="remote_service_connected">Connected to remote service</string>
+    <string name="remote_service_disconnected">Disconnected from remote service</string>
+    <string name="remote_service_unbind_disconn">Unbinding due to disconnect</string>
+    <string name="remote_call_failed">Failure calling remote service</string>
+    <string name="activity_remote_service_binding_options">App/Service/Remote Service Binding Options</string>
+    <string name="service_start_arguments_label">Sample Service Start Arguments
+    </string>
+    <string name="activity_service_start_arguments_controller">App/Service/Service
+        Start Arguments Controller
+    </string>
+    <string name="service_start_arguments_controller">This demonstrates how
+        service can be started with arguments, and run until all arguments are
+        processed.
+    </string>
+    <string name="start1_service">Start \"One\" no redeliver</string>
+    <string name="start2_service">Start \"Two\" no redeliver</string>
+    <string name="start3_service">Start \"Three\" w/redeliver</string>
+    <string name="startfail_service">Start failed delivery</string>
+    <string name="service_created">Service created.</string>
+    <string name="service_destroyed">Service destroyed.</string>
+    <string name="job_work_service_label">Job Work Service</string>
+    <string name="activity_job_work_service">App/Job/Job Work Service Controller</string>
+    <string name="job_work_service_controller">This demonstrates how
+        work can be enqueued and executed by a job, running work in the job until
+        everything is complete.
+    </string>
+    <string name="enqueue1_job">Enqueue \"One\"</string>
+    <string name="enqueue2_job">Enqueue \"Two\"</string>
+    <string name="enqueue3_job">Enqueue \"Three\"</string>
+    <string name="job_service_created">JobService created.</string>
+    <string name="job_service_destroyed">JobService destroyed.</string>
+    <string name="foreground_service_started">Service is in the foreground</string>
+    <string name="foreground_service_label">Sample Foreground Service</string>
+    <string name="activity_foreground_service_controller">App/Service/Foreground Service Controller</string>
+    <string name="foreground_service_controller">This demonstrates how you can
+            implement services that run in the foreground when needed.</string>
+    <string name="start_service_foreground">Start Service Foreground</string>
+    <string name="start_service_foreground_wakelock">Start Service Foreground w/Wakelock</string>
+    <string name="start_service_background">Start Service Background</string>
+    <string name="start_service_background_wakelock">Start Service Background w/Wakelock</string>
+    <string name="start_service_foreground_2">Start Service Foreground 2</string>
+    <string name="start_service_foreground_2_alarm">Start Service Foreground 2 Via Alarm</string>
+    <string name="activity_isolated_service_controller">App/Service/Isolated Service Controller</string>
+    <string name="isolated_service_controller">This demonstrates the use of android:isolatedProcess
+            with services.  There are two services, which can be independently controlled; they will
+            each run in their own isolated process</string>
+    <string name="start_service_1">Start Service 1</string>
+    <string name="stop_service_1">Stop Service 1</string>
+    <string name="bind_service_1">Bind Service 1</string>
+    <string name="start_service_2">Start Service 2</string>
+    <string name="stop_service_2">Stop Service 2</string>
+    <string name="bind_service_2">Bind Service 2</string>
+    <string name="isolated_service_1_started">Isolated service 1 has started</string>
+    <string name="isolated_service_1_stopped">Isolated service 1 has stopped</string>
+    <string name="isolated_service_1_label">Sample Isolated Service 1</string>
+    <string name="one_shot_received">The one-shot alarm has gone off</string>
+    <string name="repeating_received">The repeating alarm has gone off</string>
+    <string name="activity_alarm_controller">App/Alarm/Alarm Controller</string>
+    <string name="alarm_controller">This demonstrates how to schedule and handle
+        one-shot and repeating alarms.</string>
+    <string name="one_shot_alarm">One Shot Alarm</string>
+    <string name="one_shot_while_idle_alarm">One Shot While-Idle Alarm</string>
+    <string name="start_repeating_alarm">Start Repeating Alarm</string>
+    <string name="stop_repeating_alarm">Stop Repeating Alarm</string>
+    <string name="one_shot_scheduled">One-shot alarm will go off in 30 seconds based on
+        the real time clock.  Try changing the current time before then!</string>
+    <string name="repeating_scheduled">Repeating alarm will go off in 15 seconds and
+        every 15 seconds after based on the elapsed realtime clock</string>
+    <string name="repeating_unscheduled">Repeating alarm has been unscheduled</string>
+    <string name="alarm_service_started">The alarm service has started running</string>
+    <string name="alarm_service_finished">The alarm service has finished running</string>
+    <string name="alarm_service_label">Sample Alarm Service</string>
+    <string name="activity_alarm_service">App/Alarm/Alarm Service</string>
+    <string name="alarm_service">This demonstrates how to schedule a repeating
+        alarm that will initiate a long-lived operation through a service.</string>
+    <string name="start_alarm_service">Start Alarm Service</string>
+    <string name="stop_alarm_service">Stop Alarm Service</string>
+    <string name="alarm_service_scheduled">Alarm service will run now, and then every
+        30 seconds for 15 seconds</string>
+    <string name="alarm_service_unscheduled">Alarm service has been unscheduled</string>
+    <string name="activity_local_sample">App/Instrumentation/Local Sample</string>
+    <string name="local_sample">This demonstrates an Instrumentation that runs against
+        one of our own classes.  Note that this activity will be killed as
+        a side-effect of starting instrumentation on its own application.</string>
+    <string name="activity_contacts_filter">App/Instrumentation/Contacts Filter</string>
+    <string name="contacts_filter">This demonstrates an Instrumentation package that
+        launches the contacts list and simulates user events to filter it.</string>
+    <string name="pick_image_label">App/Activity/PickImage</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="short_notification_text">Short notification</string>
+    <string name="long_notification_text">This is a long notification.  See, you might need a second more to read it.</string>
+    <string name="status_bar_notification_title">Sample Notification</string>
+    <string name="notifying_service_controller">This service will update a status bar notification
+                  every 5 seconds for a minute</string>
+    <string name="notification_background_service">This shows how you can use a notification to
+        send a broadcast and allow you to start a service even if your app is in the
+        background.</string>
+    <string name="notify_bg">Post notification</string>
+    <string name="notification_background_label">Notification to background</string>
+    <string name="activity_custom_title">App/Activity/Custom Title</string>
+    <string name="custom_title_left">Left is best</string>
+    <string name="custom_title_right">Right is always right</string>
+    <string name="custom_title_left_button">Change Left</string>
+    <string name="custom_title_right_button">Change Right</string>
+    <string name="activity_reorder">App/Activity/Reorder Activities</string>
+    <string name="reorder_on_launch">This is the first of a sequence of four Activities.  A button on the fourth will use the Intent.FLAG_ACTIVITY_REORDER_TO_FRONT flag to bring the second of the activities to the front of the history stack. After that, proceeding back through the history should begin with the newly-frontmost second reorder activity, then the fourth, the third, and finally the first.</string>
+    <string name="reorder_launch_two">Go to the second</string>
+    <string name="reorder_two_text">This is the second in a sequence of four Activities.</string>
+    <string name="reorder_launch_three">Go to the third</string>
+    <string name="reorder_three_text">This is the third of a sequence of four Activities.</string>
+    <string name="reorder_launch_four">Go to the fourth</string>
+    <string name="reorder_four_text">This is the last in a sequence of four Activities.</string>
+    <string name="reorder_second_to_front">Bring the second in front</string>
+    <string name ="activity_rotation_animation">App/Activity/Rotation Animation</string>
+    <string name="menu_from_xml_title">App/Menu/Inflate from XML</string>
+    <string name="menu_from_xml_instructions_press_menu">Select a menu resource and press the menu key.</string>
+    <string name="menu_from_xml_instructions_go_back">If you want to choose another menu resource, go back and re-run this activity.</string>
+    <string name="voice_recognition">App/Voice Recognition</string>
+    <string name="supported_languages">Supported languages</string>
+    <string name="language_preference">Voice Search in Settings</string>
+    <string name="text_to_speech">App/Text-To-Speech</string>
+    <string name="again">Again</string>
+    <string name="app_update_received">ApiDemos has been updated!</string>
+	
+	</resources>
